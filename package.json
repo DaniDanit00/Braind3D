@@ -20,6 +20,7 @@
     "bootstrap": "^5.3.3",
     "firebase": "^10.12.3",
     "mongodb": "^6.8.0",
+    "rapier": "^1.0.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router": "^6.24.1",

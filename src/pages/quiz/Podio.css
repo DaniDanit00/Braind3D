@@ -1,3 +1,20 @@
+.podio-general {
+  display: flex;
+  font-family: "roboto condensed", serif;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 40px 20px;
+}
+
+.podio-top-container,
+.podio-resto-container {
+  width: 90%;
+  max-width: 700px;
+  text-align: center;
+  margin-top: 60px;
+  font-family: "roboto condensed", serif;
+}
 .podio-container {
   padding: 20px;
   text-align: center;
@@ -5,8 +22,14 @@
   font-family: "roboto condensed", serif;
   margin-top: -20%;
 }
+.podio-top-container h2,
+.podio-resto-container h2 {
+  font-family: "roboto condensed", serif;
+  font-size: 1.6rem;
+}
 
 .podio-lista {
+  font-family: "roboto condensed", serif;
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -14,22 +37,22 @@
   gap: 5%;
 }
 
-.puesto {
-  font-size: 1.2rem;
-  margin: 10px 0;
+.podio-top li,
+.podio-resto li {
+  margin: 12px 0;
+  font-family: "roboto condensed", serif;
+  font-size: 1.1rem;
 }
 
-.puesto-1 {
-  color: gold;
-  font-weight: bold;
+.podio-canvas {
+  width: 100%;
+  height: 500px; /* mayor altura si quieres destacar el canvas */
+  font-family: "roboto condensed", serif;
 }
-
-.puesto-2 {
-  color: silver;
-}
-
-.puesto-3 {
-  color: #cd7f32; /* bronce */
+.podio-container {
+  padding: 20px;
+  text-align: center;
+font-family: "roboto condensed", serif;
 }
 
 .podio {
@@ -37,4 +60,5 @@
   flex-direction: row;
   width: 100vw;
   height: 85vh;
+  font-family: "roboto condensed", serif;
 }
